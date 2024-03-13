@@ -11,13 +11,13 @@ Note:
 
 .model small
 .stack 100h
-.data      // call data segment for declear variable and initiall data
-// Declear variale  --->  msg, msg1
-// db = define byte (small data store)
-// dw = define word (big data store)
+.data      ; call data segment for declear variable and initiall data
+; Declear variale  --->  msg, msg1
+; db = define byte (small data store)
+; dw = define word (big data store)
 
-msg db 3       // variable e 3 store kore dilam
-msg1 db ?      // ? means unkhow value nibo
+msg db 3       ; variable e 3 store kore dilam
+msg1 db ?      ; ? means unkhow value nibo
 
 newline db 13, 10, '$'  ; Newline characters for formatting 
 
